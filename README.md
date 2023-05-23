@@ -1,4 +1,4 @@
-# SmartContactManager
+#EnquiryManagementSystem
 =================
 Functionalities
 =================
