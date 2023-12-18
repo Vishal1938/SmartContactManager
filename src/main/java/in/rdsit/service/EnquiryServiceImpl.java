@@ -84,7 +84,7 @@ public class EnquiryServiceImpl  implements EnquiryService {
 
 	@Override
 	public List<String> getCourses() {
-		// TODO Auto-generated method stu
+		// TODO Auto-generated method stub
 		List<CourseEntity> findAll=courseRepo.findAll();
 		List<String> courses=new ArrayList<String>();
 		for(CourseEntity course:findAll)

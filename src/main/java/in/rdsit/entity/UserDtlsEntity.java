@@ -23,7 +23,9 @@ public class UserDtlsEntity {
 	private String email;
 	
 	private String pwd;
+	
 	private Long phno;
+	
 	private String accStatus;
 	
 	@OneToMany(mappedBy = "userDtls", cascade = CascadeType.ALL, orphanRemoval = true)
